@@ -2,5 +2,6 @@
 <Project Sdk="Microsoft.Build.NoTargets/1.0.94">
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<LanguageTargets>$(MSBuildThisFileDirectory)\LanguageAgnosticShim.targets</LanguageTargets>
 	</PropertyGroup>
 </Project>
